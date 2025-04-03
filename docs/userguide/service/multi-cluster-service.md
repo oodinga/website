@@ -17,7 +17,7 @@ We can install Karmada by referring to [Quick Start](https://github.com/karmada-
 Ensure that at least two clusters have been added to Karmada, and the container networks between member clusters are connected.
 
 - If you use the `hack/local-up-karmada.sh` script to deploy Karmada, Karmada will have three member clusters, and the container networks of the `member1` and `member2` will be connected.
-- You can use `Submariner` or other related open source projects to connected networks between member clusters.
+- You can use `Submariner` or other related open source projects to connect networks between member clusters.
 
 > Note: In order to prevent routing conflicts, Pod and Service CIDRs of clusters need non-overlapping.
 
